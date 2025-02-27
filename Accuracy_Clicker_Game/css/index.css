@@ -1,0 +1,41 @@
+/*
+    Color Codes
+5D737E Payne's Grey         Background
+009E60 Shamrock Green       Start button
+51291E Caput Mortuum        Score background
+E0E2DB Alabaster            Border color
+E7F9A9 Mindadro             Score text color
+EAC435 Saffron              Title color
+
+*/
+
+
+
+
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(116, 116, 116);
+}
+table{
+    border-style: solid;
+    border-width: 2px;
+    height: 500px;
+    width: 500px;
+}
+
+#score_box{
+    border-style: solid;
+    border-width: 2px;
+    width: 150px;
+}
+
+#start_button{
+    padding: 10px 20px;
+    margin-top: 25px;
+
+}
