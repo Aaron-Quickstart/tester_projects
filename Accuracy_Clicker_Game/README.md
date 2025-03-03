@@ -15,5 +15,5 @@
 - Random spawn delay after each click
 - colorblind modes
 - add time limits for the squars to despawn and penalize the user
-- multiplse square spawn simultaniously
+- more than one square spawns simultaniously or is visible on the screen at the same time.
 - difficulty settings
