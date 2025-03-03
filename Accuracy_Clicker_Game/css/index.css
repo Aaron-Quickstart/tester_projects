@@ -22,6 +22,7 @@ body{
 }
 h1{
     color: #EAC435;
+    margin-bottom: 100px;
 }
 table{
     border-style: solid;
@@ -55,7 +56,18 @@ table{
     padding: 5px;
     border-radius: 50%;
 }
-
-footer{
-    
+#playerHealth{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E0E2DB;
+    color: #EAC435;
+    width: 150px;
+    text-align: center;
+    padding-right: 5px;
+    margin-bottom: 2px;
+    margin-right: 60.25%;
+}
+#heartIcon{
+    height: 30px;
+    width: 30px;
 }
