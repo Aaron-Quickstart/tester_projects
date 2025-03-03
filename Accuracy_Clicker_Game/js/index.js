@@ -7,5 +7,5 @@ function gameFunction()
     let colors = ['Red', 'Blue', 'Green', 'Yellow'];
     
     let coords = document.querySelectorAll('game_table td')
-    
+    cells.
 }
