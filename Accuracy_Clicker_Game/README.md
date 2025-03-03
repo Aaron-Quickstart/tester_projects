@@ -6,7 +6,7 @@
 ###Features
 - randomly spawns a red or blue square inside of a playfield
 - gives points for clicking on red squares
-- takes points for clicking on blue squares
+- takes hearts for clicking on blue squares
 - game over if user clicks on 3 blue squares
 
 
