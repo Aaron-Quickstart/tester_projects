@@ -7,7 +7,8 @@
 // if return satus is okay the data will be parsed into a json format
 // inform user of no matches found       
 // loop through ther data, for each result create an image and add it to my display area
-
+// remember literal strings `----${string}----`
+// keep track or progress with  "console.log(msgText);"
 
 /* 
 Element Ids
@@ -25,8 +26,8 @@ function whosThatPokemon()
 {
   //create variabels needed
 
-    let userSearch = document.getElementById('userSearchTerm'.toLowerCase());
-    let pokeImage = document.GetElementById('displayImageHere');
+    let userSearch = document.getElementById('userSearchTerm');
+    let pokeImage = document.getElementById('displayImageHere');
     let pokeName = document.getElementById('pokemonName');
     let pokeNumber = document.getElementById('pokemonNumber');
     let pokeGender = document.getElementById('gender');
@@ -36,15 +37,70 @@ function whosThatPokemon()
     let msgText = 'search button is working';
 
     console.log(msgText);
-    
- // verify searchTerm has been linked with a vailid DOM object
+
+ // verify searchTerm has been linked with a valid DOM object
+ // verify user has input a serach term
     if ((userSearch == null) || (userSearch == undefined))
     {
-        
+        msgText = 'Search element not defined';
+        console.log(msgText);
+    }
+    if (userSearch.value.trim().length == 0)
+    {
+        msgText = 'Input the name of a Pokemon you would like to learn about then click "Seach"';
+        console.log(msgText);
     }
 
+    if ((pokeImage == null) || (pokeImage == undefined))
+        {
+            msgText = 'Search element not defined';
+            console.log(msgText);
+        }
+    if (pokeImage.value.trim().length == 0)
+    {
+        msgText = 'Input the name of a Pokemon you would like to learn about then click "Seach"';
+        console.log(msgText);
+    }
 
+ // verify all avribles have been linked with divs
+    if ((pokeName == null) || (pokeName == undefined))
+    {
+        msgText = 'Name can not be linked with display div';
+        console.log(msgText);
+    }
+    if (pokeName.value.trim().length == 0)
+    {
+        msgText = 'Input the name of a Pokemon you would like to learn about then click "Seach"';
+        console.log(msgText);
+    }
 
+    if ((pokeNumber == null) || (pokeNumber == undefined))
+    {
+        msgText = 'Number can not be linked with display div';
+        console.log(msgText);
+    }
 
+    if ((pokeGender == null) || (pokeGender == undefined))
+    {
+        msgText = 'Gender can not be with display div';
+        console.log(msgText);
+    }
 
+    if ((pokeCat == null) || (pokeCat == undefined))
+    {
+        msgText = 'Category can not be with display div';
+        console.log(msgText);
+    }
+
+    if ((pokeType == null) || (pokeType == undefined))
+    {
+        msgText = 'Type can not be with display div';
+        console.log(msgText);
+    }
+
+    if ((pokeWeak == null) || (pokeWeak == undefined))
+    {
+        msgText = 'Weakness can not be with display div';
+        console.log(msgText);
+    }
 }
