@@ -29,6 +29,7 @@ function whosThatPokemon()
   //create variabels needed
 
     let userSearch = document.getElementById('userSearchTerm');
+    let searchedTerm = userSearch.value.toLowerCase();
     let pokeImage = document.getElementById('displayImageHere');
     let pokeName = document.getElementById('pokemonName');
     let pokeNumber = document.getElementById('pokemonNumber');
@@ -95,6 +96,6 @@ function whosThatPokemon()
  // create varibles with the values needed to promtp an api fetch
     msgText = userSearch;
     console.log(msgText);
-    msgText = 'looking for ' + userSearch.value.trim();
+    msgText = 'looking for ' + searchedTerm;
     console.log(msgText);
 }
