@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeDex</title>
+    <script src="js/global.js"></script>
+</head>
+<body>
+    <div id="websiteTitle">
+        <h1>
+            Who's that Pokemon?
+        </h1>
+    </div>
+
+    <div id="userInputDiv">
+        <input type="text" placeholder="search for pokemon" id="userSearchTerm">
+        <button onClick="whosThatPokemon()" id="searchButton">Search</button>
+    </div>
+
+    <div id="displayImageHere">
+    </div>
+
+    <div id="infoSection">
+        <h3 id="pokemonName"></h3>
+        <h4 id="pokemonNumber"></h4>
+        <br>
+        <p id="gender"></p>
+        <br>
+        <p id="category"></p>
+        <br>
+        <p id="type"></p>
+        <br>
+        <p id="weaknesses"></p>
+        <br>
+    </div>
+</body>
+</html>
