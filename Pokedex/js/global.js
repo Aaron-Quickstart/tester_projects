@@ -24,7 +24,9 @@ Element Ids
 -   weaknesses
 */
 
-function whosThatPokemon()
+// api url      `https://pokeapi.co/api/v2/pokemon/${searchedTerm}`
+
+function searchPokedex()
 {
   //create variabels needed
 
@@ -93,9 +95,37 @@ function whosThatPokemon()
         console.log(msgText);
     }
 
- // create varibles with the values needed to promtp an api fetch
-    msgText = userSearch;
+    msgText = userSearch.value;
     console.log(msgText);
     msgText = 'looking for ' + searchedTerm;
     console.log(msgText);
+
+ // create varible with user input 
+    const api_url = `https://pokeapi.co/api/v2/pokemon/${searchedTerm}`;
+
+    fetch(api_url)
+        .then(response => 
+            {
+                if(!response.ok)
+                {
+                    msgText = 'Error fetching data from API';
+                    pokeNumber.innerText = msgText;
+                    console.log(msgText);
+                    throw new Error('Failed fetching API')
+                }
+                return response.json();
+            })
+        .then(data => 
+            {
+                //confirm the data has been fetched and formatted
+                //create reference source
+                console.log(data);
+
+               let pokeImageURL = data.sprites.front_default;
+               pokeImage.innerHTML = `<img width='150' height='150' src='${pokeImageURL}'>`;
+               pokeName.innerText = data.name;
+               pokeNumber.innerText = data.id;
+
+            })
+
 }
