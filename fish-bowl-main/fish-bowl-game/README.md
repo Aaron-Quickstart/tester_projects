@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Fish Bowl
+### 4-12 players
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Game Rules
+- separate into teams
+- One team member (the actor) will hold the phone so the rest of his/her team (the guessers) can not see the screen.  The oposing team does not guess.
+- The game will prompt the actor with a word and the rules on how to communicate that word. (ie  charades, one word only, etc)
+- Each actor's turn will last 60 seconds, the actor may "pass" to see another word if the guessers can not guess correctly.
+- Once each player has taken a turn, the round is over and a new rule is set.  Each round has unique rules.
+- The word must be guessed exactly as it appears. (ie basket is not correct if the word on screen is baskets)
+- Once a word has been guessed correctly it will be removed from the word bank for the other actors.
+- The word bankk will reset for each round.
 
-## Available Scripts
+## Round Rules
+### Round 1:
+- Actors may say anything other than what is on the screen. (ie If the word is "corn", the actor may say "what grows on the cob", "movie theater you get pop what")
+- Actors may not make any sounds or act out the word in anyway.
+### Round 2:
+- Charades
+- Actors may act out the word on screen.  Words and sounds are not allowed.
+### Round 3:
+- No words
+- Actors may make noises but not any that form words.
+- ie if the word is cow te actor may moo.
+### Round 4:
+- 1 word only
+- Actors are allowed only one word.  That would, obviously, can not be the word on screen.
+- ie if the word is corn actors may say "cobb" or "yellow" or "maze"
+### Round 5:
+- Hand puppets
+- Actors can only use his/her hands to act out the word.  Sounds are not allowed.
 
-In the project directory, you can run:
 
-### `npm start`
+# Features:
+- wordbank.json file has all of the words for the game.  The number of words added to the active play set is dependant upon the number of players.
+- Correct guesses award 10 points to the team.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Tech Stack:
+- html
+- css
+- javascrpit
+- react
+- github
