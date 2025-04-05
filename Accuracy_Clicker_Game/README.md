@@ -1,3 +1,7 @@
+I broke it.  I will be trying to remake this game using React.
+React may be easier as it is great for UIs
+
+
 # 2D Clicker Accuracy Game
 ##Aaron Clure
 

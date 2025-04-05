@@ -74,26 +74,6 @@ function searchPokedex()
         msgText = 'Number can not be linked with display div';
         console.log(msgText);
     }
-    if ((pokeGender == null) || (pokeGender == undefined))
-    {
-        msgText = 'Gender can not be with display div';
-        console.log(msgText);
-    }
-    if ((pokeCat == null) || (pokeCat == undefined))
-    {
-        msgText = 'Category can not be with display div';
-        console.log(msgText);
-    }
-    if ((pokeType == null) || (pokeType == undefined))
-    {
-        msgText = 'Type can not be with display div';
-        console.log(msgText);
-    }
-    if ((pokeWeak == null) || (pokeWeak == undefined))
-    {
-        msgText = 'Weakness can not be with display div';
-        console.log(msgText);
-    }
 
     msgText = userSearch.value;
     console.log(msgText);
@@ -126,6 +106,19 @@ function searchPokedex()
                pokeName.innerText = data.name;
                pokeNumber.innerText = data.id;
 
+
             })
 
 }
+/*
+let userSearch = document.getElementById('userSearchTerm');
+let searchedTerm = userSearch.value.toLowerCase();
+let pokeImage = document.getElementById('displayImageHere');
+let pokeName = document.getElementById('pokemonName');
+let pokeNumber = document.getElementById('pokemonNumber');
+let pokeGender = document.getElementById('gender');
+let pokeCat = document.getElementById('category');
+let pokeType = document.getElementById('type');
+let pokeWeak = document.getElementById('weaknesses');
+let msgText = 'search button is working';
+*/
