@@ -3,7 +3,7 @@
     - aaron12clure (at) gmail.com
 
 ## Website Use
-- Recreate the in world Pokedex experience
+- Learn basic info about Pokemon
     - Search for Pokemon by name
         - Display name, information about the Pokemon, and an image of that porkemon (using an API)
 
