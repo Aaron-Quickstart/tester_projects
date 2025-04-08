@@ -1,9 +1,10 @@
+import StartScreen from "./pages/StartScreen";
 
 
 function App() {
   return (
     <>
-      <p>Fish Bowl</p>
+      <StartScreen/>
     </>
   );
 }
