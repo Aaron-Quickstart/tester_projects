@@ -6,7 +6,7 @@ function App() {
     <HashRouter>
       <Routes>
         <Route path="/" element={<GameStartScreen />}/>
-        <Route path="
+        
       </Routes>
     </HashRouter>
 
