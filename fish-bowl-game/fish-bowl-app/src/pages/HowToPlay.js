@@ -1,9 +1,10 @@
+import RulesPages from "../componets/RulesPages";
 
 
 
 
 
-export default function RuleBook()
+export default function howToPlay()
 {
 
 
@@ -20,8 +21,8 @@ export default function RuleBook()
                     <li>The word will appear on screen once the timer has been started.  If the actor is unable to successfully communicate the word / phrase, there is a pass button</li>
                     <li>The pass button will skip the term temporarily, effectively putting it on the bottom of the deck.</li>
                     <li>Once the 60 seconds has expired, pass the device to the other team. This repeats until all players have acted with that rule set.</li>
-                    <li>Round 1: </li>
                 </ul>
+                <RulesPages />
             </div>
             <button>Start Game</button>
         </>
