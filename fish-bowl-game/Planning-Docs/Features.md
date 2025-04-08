@@ -1,6 +1,5 @@
-Here’s a tongue-in-cheek rule book for the classic party game *Fishbowl*, where players guess words or phrases based on clues in a series of rounds (typically Taboo-style descriptions, charades, and one-word hints). I’ll keep it light, snarky, and dripping with exaggerated flair. Enjoy!
-
----
+BUILD THIS WITH  A MOBILE FIRST DESIGN
+WHO WOULD PLAY THINS ON ANYTHING OTHER THAN A PHONE OR TABLET
 
 ### The Official(ish) Fishbowl Rule Book: A Guide to Chaos, Glory, and Questionable Friendships
 
