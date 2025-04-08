@@ -16,7 +16,8 @@ export default function EndOfRound()
                 <div className="scoreboard">
                     <p>import scoreboard here</p>
                 </div>
-                <button>start next round</button>
+                <button>Link to RoundStartScreen    increment roundCounter</button>
+                <p>once roundCount == round# LInk to FinalScore</p>
             </div>
         </>
     );

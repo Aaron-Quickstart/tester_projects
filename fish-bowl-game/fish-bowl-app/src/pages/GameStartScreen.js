@@ -11,8 +11,8 @@ export default function StartScreen()
     return(
         <>
             <h1>Fish Bowl</h1>
-            <button>Start Game</button>
-            <button>How to Play</button>
+            <button>Link to TeamsScreen  Start Game</button>
+            <button>Link to HowToPlay  how To Play</button>
         </>
     );
 }

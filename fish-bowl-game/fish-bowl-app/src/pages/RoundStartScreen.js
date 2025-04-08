@@ -14,7 +14,7 @@ export default function RoundStartScreen()
             <div className="roundRule">
                 <p>inport round rules here</p>
             </div>
-            <button>link to start turn</button>
+            <button>link to PlayerTurn</button>
         </>
     );
 }

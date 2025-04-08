@@ -24,7 +24,7 @@ export default function howToPlay()
                 </ul>
                 <RulesPages />
             </div>
-            <button>Start Game</button>
+            <button>Link to RoundStart   Start Game</button>
         </>
     );
 }

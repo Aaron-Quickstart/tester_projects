@@ -15,7 +15,7 @@ export default function EndOfTurn()
                 <h2>Your Turn Has Ended</h2>
                 <p>Pass the device to the other team</p>
             </div>
-            <button>start next turn</button>
+            <button>Link to PlayerTurn    start next turn</button>
         </>
     );
 }
