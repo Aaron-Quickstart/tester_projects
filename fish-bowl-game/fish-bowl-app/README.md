@@ -1,4 +1,4 @@
-# Hook Line and Thinker
+# Hook Line and Thinker:
 - A digital Fishbowl game
 ## Author:
 - Aaron Clure
