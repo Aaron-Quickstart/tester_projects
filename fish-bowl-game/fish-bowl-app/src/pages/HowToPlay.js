@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import RuleBook from "./componets/RuleBook";
 
 
@@ -12,6 +13,7 @@ export default function howToPlay()
 
     return(
         <>
+            <Link to="/"><button>🔙</button></Link>
             <div className="ruleBook">
                 <h2>How To Play:</h2>
                 <ul>
@@ -24,7 +26,7 @@ export default function howToPlay()
                 </ul>
                 <RuleBook />
             </div>
-            <button>Link to RoundStart   Start Game</button>
+            <Link to="/RoundStartScreen"><button>Start First Round</button></Link>
         </>
     );
 }

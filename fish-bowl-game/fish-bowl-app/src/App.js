@@ -17,7 +17,6 @@ function App() {
         <Route path="/HowToPlay" element={<HowToPlay/>}/>
         <Route path="/RoundStartScreen" element={<RoundStartScreen/>}/>
         <Route path="/PlayerTurn" element={<PlayerTurn/>}/>
-        <Route path="/RoundStartScreen" element={<RoundStartScreen/>}/>
         <Route path="/EndOfTurn" element={<EndOfTurn/>}/>
         <Route path="/EndOfRound" element={<EndOfRound/>}/>
         <Route path="/FinalScore" element={<FinalScore/>}/>
