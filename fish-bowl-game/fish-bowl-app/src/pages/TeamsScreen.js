@@ -18,7 +18,7 @@ export default function TeamsScreen()
                 <input type="number" placeHolder="Number of Teams" id="teamNumber"/>
                 <lable>Team Number</lable>
             </div>
-            <Link to="/RoundStart"><button>Start Game</button></Link>
+            <Link to="/RoundStartScreen"><button>Start Game</button></Link>
         </>
     );
 }
