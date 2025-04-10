@@ -1,4 +1,4 @@
-import RulesPages from "../componets/RulesPages";
+import RuleBook from "./componets/RuleBook";
 
 
 
@@ -22,7 +22,7 @@ export default function howToPlay()
                     <li>The pass button will skip the term temporarily, effectively putting it on the bottom of the deck.</li>
                     <li>Once the 60 seconds has expired, pass the device to the other team. This repeats until all players have acted with that rule set.</li>
                 </ul>
-                <RulesPages />
+                <RuleBook />
             </div>
             <button>Link to RoundStart   Start Game</button>
         </>
