@@ -35,14 +35,30 @@ export default function howToPlay()
                         test of how long you can stand your friends before someone flips a table. 
                         Play hard, laugh harder, and may the best team (or the loudest) reign supreme.
                     </p>
+                    <h3>Rules for life</h3>
+                    <p>
+                    1. The “No Fun” Rule: If you’re the jerk who writes “antidisestablishmentarianism,” you’re banned from snacks.
+                    2. The Drama Queen Clause: Overacting in charades gets you bonus style points but zero real ones. Calm down, Meryl Streep.
+                    3. The “I Swear I Said That” Lie: If your team guesses wrong and you insist “I totally meant that,” you lose a point for bad sportsmanship. We all heard you, Chad.
+                    4. The Timer Tyrant: Whoever’s on timer duty must cackle maniacally when it hits zero. It’s law.
+                    5. The “Fishbowl Is Life” Pact: Argue about rules for at least 10 minutes before starting. It’s tradition.
+
+                    </p>
                 </div>
                 <div className="round1rules">
                     <h3>Round 1:</h3>
+                    <h4 className='round1sumary'>Anything but the word.</h4>
                     <p>
                         Basically "Taboo".  The actor can describe the key word/phrase in any way.  
                         The actor also may not try "it ryhmes with".  
                         Example:  the word on screen says “pizza.” You say, “Circular food of the gods, 
                         often ruined by pineapple.” Not, “It’s, uh, piz—uh, crap.”
+                    </p>
+                </div>
+                <div className="round2rules">
+                    <h3>Round 2:</h3>
+                    <p>
+                        
                     </p>
                 </div>
             </div>
