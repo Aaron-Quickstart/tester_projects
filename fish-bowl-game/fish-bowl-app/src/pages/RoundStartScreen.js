@@ -11,11 +11,11 @@ export default function RoundStartScreen()
 
     return(
         <>
-            <Link to="/HowToPlay"><button>🔙</button></Link>
+            <Link to="/TeamsScreen"><button>🔙</button></Link>
             <div className="roundRule">
-                <p>inport round rules here</p>
+                <p>import round rules here.  Figure out how to display the rules dependant upon the round number.</p>
             </div>
-            <button>link to PlayerTurn</button>
+            <Link to="/PlayerTurn"><button>Start Turn</button></Link>
         </>
     );
 }

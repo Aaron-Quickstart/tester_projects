@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 
 
@@ -13,10 +13,13 @@ export default function PlayerTurn()
         <>
             <div className="activeWord">
                 <p>Display Current Word Here</p>
+                <p>Display rule reminder here</p>
             </div>
             <button>correct!</button>
-            <div className="turnTimer" onTimerRunout="Link to EndOfTurn"></div>
-            <button>pass</button>
+            <div className="turnTimer" onTimerRunout="Link to EndOfTurn">Timer</div>
+            <button>view next word</button>
+            <br/>
+            <Link to="/EndOfTurn"><button>Next Page --Delete before build--</button></Link>
            {/* if(turnCount == playercount)
             {
                 <p>Link to EndOfRound</p>

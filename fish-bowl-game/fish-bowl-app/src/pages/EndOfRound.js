@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -16,8 +17,10 @@ export default function EndOfRound()
                 <div className="scoreboard">
                     <p>import scoreboard here</p>
                 </div>
-                <button>Link to RoundStartScreen    increment roundCounter</button>
+                <Link to="/RoundStartScreen"><button>Start Game</button></Link>
                 <p>once roundCount == round# LInk to FinalScore</p>
+                <Link to="/RoundStartScreen"><button>Start Game</button></Link>
+                <Link to="/FinalScore"><button>next page DEV BTN</button></Link>
             </div>
         </>
     );

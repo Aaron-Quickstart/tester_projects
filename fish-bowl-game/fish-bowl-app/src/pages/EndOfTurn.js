@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -15,7 +16,8 @@ export default function EndOfTurn()
                 <h2>Your Turn Has Ended</h2>
                 <p>Pass the device to the other team</p>
             </div>
-            <button>Link to PlayerTurn    start next turn</button>
+            <Link to="/PlayerTurn"><button>Start Next Turn</button></Link>
+            <Link to="/EndOfRound"><button>Round End  --delete after build--</button></Link>
         </>
     );
 }

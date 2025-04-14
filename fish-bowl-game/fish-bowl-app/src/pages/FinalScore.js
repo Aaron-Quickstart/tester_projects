@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -16,8 +17,8 @@ export default function FinalScore()
                 <div className="winningTeam">
                     <p>import winning team here</p>
                 </div>
-                <button>New Game  Link to Teams</button>
-                <button>Exit Game Link to / </button>
+                <Link to="/TeamsScreen"><button>Play Again</button></Link>
+                <Link to="/GameStartScreen"><button>Main Menu</button></Link>
             </div>
         </>
     );
