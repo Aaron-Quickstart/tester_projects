@@ -7,6 +7,7 @@ import PlayerTurn from "./pages/PlayerTurn";
 import EndOfTurn from "./pages/EndOfTurn";
 import EndOfRound from "./pages/EndOfRound";
 import FinalScore from "./pages/FinalScore";
+import "./fishbowlstyles.css";
 
 function App() {
   return (

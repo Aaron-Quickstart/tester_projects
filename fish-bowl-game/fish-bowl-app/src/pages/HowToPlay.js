@@ -13,8 +13,9 @@ export default function howToPlay()
     return(
         <>
             <Link to="/"><button>🔙</button></Link>
+            <h2>How To Play:</h2>
             <div className="ruleBook">
-                <h2>How To Play:</h2>
+                
                 <div className="gameRules">
                     <h3>Objective:</h3>
                     <p>
@@ -28,7 +29,7 @@ export default function howToPlay()
                         Split into two teams. If you’ve got an odd number, someone’s the “referee” 
                         (aka the buzzkill who doesn’t play but judges your terrible acting).
                         Fishbowl has three rounds (plus a tie breaker if needed), each more outrageous than the last.  
-                        Each round will have its own rule for how the actors can communicate.  
+                        Each round will have its own rule for how the actors can communicate, breaking the rule means losing that word for that turn.  
                         Every player will have a turn for each round.  Turns last 60 seconds.  
                         Awarded points increase for each round.  Fishbowl isn’t just a game—it’s a 
                         test of how long you can stand your friends before someone flips a table. 
@@ -38,7 +39,10 @@ export default function howToPlay()
                 <div className="round1rules">
                     <h3>Round 1:</h3>
                     <p>
-
+                        Basically "Taboo".  The actor can describe the key word/phrase in any way.  
+                        The actor also may not try "it ryhmes with".  
+                        Example:  the word on screen says “pizza.” You say, “Circular food of the gods, 
+                        often ruined by pineapple.” Not, “It’s, uh, piz—uh, crap.”
                     </p>
                 </div>
             </div>
