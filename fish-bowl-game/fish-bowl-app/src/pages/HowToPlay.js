@@ -24,7 +24,22 @@ export default function howToPlay()
                         where you guess what in the world your friend is trying to communicate.
                     </p>
                     <h3>Getting Ready for the Chaos</h3>
-                    <p></p>
+                    <p>
+                        Split into two teams. If you’ve got an odd number, someone’s the “referee” 
+                        (aka the buzzkill who doesn’t play but judges your terrible acting).
+                        Fishbowl has three rounds (plus a tie breaker if needed), each more outrageous than the last.  
+                        Each round will have its own rule for how the actors can communicate.  
+                        Every player will have a turn for each round.  Turns last 60 seconds.  
+                        Awarded points increase for each round.  Fishbowl isn’t just a game—it’s a 
+                        test of how long you can stand your friends before someone flips a table. 
+                        Play hard, laugh harder, and may the best team (or the loudest) reign supreme.
+                    </p>
+                </div>
+                <div className="round1rules">
+                    <h3>Round 1:</h3>
+                    <p>
+
+                    </p>
                 </div>
             </div>
             <Link to="/RoundStartScreen"><button>Start First Round</button></Link>
