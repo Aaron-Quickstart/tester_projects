@@ -1,0 +1,5 @@
+.ruleBook{
+    display: flex;
+    overflow-y: auto;
+    height: 50px;
+}
