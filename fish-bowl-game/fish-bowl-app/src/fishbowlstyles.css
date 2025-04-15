@@ -1,4 +1,37 @@
-.ruleBook{
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.appContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.startTitles
+{
+    margin: auto;
+}
+.startScreenButtons
+{
+    margin: auto;
+}
+.steamsScreenBtn
+{
+ margin: 0.25rem;
+}
+.howToPlayBtn
+{
+margin: 0.25rem;
+}
+
+
+.ruleBook
+{
     overflow-y: auto;
     height: 250px;
     border-style: solid;
