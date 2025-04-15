@@ -12,16 +12,18 @@ import "./fishbowlstyles.css";
 function App() {
   return (
     <HashRouter>
-      <Routes>
-        <Route path="/" element={< GameStartScreen/>}/>
-        <Route path="/TeamsScreen" element={< TeamsScreen/>}/>
-        <Route path="/HowToPlay" element={<HowToPlay/>}/>
-        <Route path="/RoundStartScreen" element={<RoundStartScreen/>}/>
-        <Route path="/PlayerTurn" element={<PlayerTurn/>}/>
-        <Route path="/EndOfTurn" element={<EndOfTurn/>}/>
-        <Route path="/EndOfRound" element={<EndOfRound/>}/>
-        <Route path="/FinalScore" element={<FinalScore/>}/>
-      </Routes>
+      <div className="appContainer">
+        <Routes>
+          <Route path="/" element={< GameStartScreen/>}/>
+          <Route path="/TeamsScreen" element={< TeamsScreen/>}/>
+          <Route path="/HowToPlay" element={<HowToPlay/>}/>
+          <Route path="/RoundStartScreen" element={<RoundStartScreen/>}/>
+          <Route path="/PlayerTurn" element={<PlayerTurn/>}/>
+          <Route path="/EndOfTurn" element={<EndOfTurn/>}/>
+          <Route path="/EndOfRound" element={<EndOfRound/>}/>
+          <Route path="/FinalScore" element={<FinalScore/>}/>
+        </Routes>
+      </div>
     </HashRouter>
 
   );

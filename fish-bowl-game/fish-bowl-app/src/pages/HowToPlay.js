@@ -47,7 +47,6 @@ export default function howToPlay()
                 </div>
                 <div className="round1rules">
                     <h3>Round 1:</h3>
-                    <h4 className='round1sumary'>Anything but the word.</h4>
                     <p>
                         Basically "Taboo".  The actor can describe the key word/phrase in any way.  
                         The actor also may not try "it ryhmes with".  
@@ -58,7 +57,7 @@ export default function howToPlay()
                 <div className="round2rules">
                     <h3>Round 2:</h3>
                     <p>
-                        
+                        It is time for Charades!  
                     </p>
                 </div>
             </div>

@@ -61,3 +61,9 @@ Fishbowl isn’t just a game—it’s a test of how long you can stand your frie
 ---
 
 There you go! A cheeky, over-the-top take on Fishbowl. Let me know if you’d like me to tweak it further!
+
+
+
+
+
+import "./fishbowlstyles.css";
