@@ -13,7 +13,7 @@ export default function howToPlay()
     return(
         <>
             <div className="howToPlayScreenDiv">
-                <Link to="/"><button>🔙</button></Link>
+                <Link to="/" id="backBtn"><button>🔙</button></Link>
                 <h2>How To Play:</h2>
                 <div className="ruleBook">
                     

@@ -1,9 +1,11 @@
+/*change browser defaults to known settings to stabalize user experience*/
 body
 {
     margin: 0;
     padding: 0;
 }
 
+/*global center style*/
 .appContainer
 {
     display: flex;
@@ -12,6 +14,29 @@ body
     min-height: 100vh;
 }
 
+/*fix Back and Start buttons' locations on screen*/
+#backBtn
+{
+    position: fixed;
+    left: 25px;
+    top: 25px;
+}
+#startGameBtn
+{
+ position: fixed;
+ bottom: 25px;
+ left: 40%;
+ 
+}
+
+/*Style all Links as buttons*/
+a
+{
+    text-decoration: none;
+    padding:10px;
+
+}
+/*Start Screen styles*/
 .startTitles
 {
     margin: auto;
@@ -28,6 +53,9 @@ body
 {
 margin: 1.5rem;
 }
+
+/*Teams Screen styles*/
+
 
 
 .ruleBook

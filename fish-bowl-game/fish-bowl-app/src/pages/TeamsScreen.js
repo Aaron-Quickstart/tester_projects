@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 
 
-
-
 export default function TeamsScreen()
 {
 
@@ -11,14 +9,14 @@ export default function TeamsScreen()
 
     return(
         <>
-            <Link to="/"><button>🔙</button></Link>
-            <div className="teamsScreen">
-                <input type="number" placeHolder="Player Count" id="playerCount"/>
-                <lable>Player Count</lable>
-                <input type="number" placeHolder="Number of Teams" id="teamNumber"/>
-                <lable>Team Number</lable>
+            <Link to="/" id="backBtn">🔙</Link>
+            <div className="teamsScreenInputs">
+                <input type="number" placeholder="Player Count" id="playerCountInput"/>
+                <label htmlFor="playerCountInput" id="playerCountInputLbl">Player Count</label>
+                <input type="number" placeholder="Number of Teams" id="teamNumberInput"/>
+                <label htmlFor="teamNumberInput"id="teamNumberInputLbl">Team Number</label>
             </div>
-            <Link to="/RoundStartScreen"><button>Start Game</button></Link>
+            <Link to="/RoundStartScreen" id="startGameBtn"><button>Start Game</button></Link>
         </>
     );
 }
