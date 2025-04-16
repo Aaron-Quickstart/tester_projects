@@ -19,7 +19,7 @@ export default function PlayerTurn()
             <div className="turnTimer" onTimerRunout="Link to EndOfTurn">Timer</div>
             <button>view next word</button>
             <br/>
-            <Link to="/EndOfTurn"><button>Next Page --Delete before build--</button></Link>
+            <Link to="/EndOfTurn">Next Page --Delete before build--</Link>
            {/* if(turnCount == playercount)
             {
                 <p>Link to EndOfRound</p>

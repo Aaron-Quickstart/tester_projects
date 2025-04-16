@@ -33,9 +33,19 @@ body
 a
 {
     text-decoration: none;
-    padding:10px;
-
+    padding:0.25rem;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.5rem;
+    background-color: hsl(0, 0%, 93%);
+    color:black;
+    transition: 0ms;
 }
+a:hover
+{
+    background-color: hsl(0, 0%, 85%);
+}
+
 /*Start Screen styles*/
 .startTitles
 {

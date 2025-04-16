@@ -16,7 +16,7 @@ export default function TeamsScreen()
                 <input type="number" placeholder="Number of Teams" id="teamNumberInput"/>
                 <label htmlFor="teamNumberInput"id="teamNumberInputLbl">Team Number</label>
             </div>
-            <Link to="/RoundStartScreen" id="startGameBtn"><button>Start Game</button></Link>
+            <Link to="/RoundStartScreen" id="startGameBtn">Start Game</Link>
         </>
     );
 }

@@ -17,8 +17,8 @@ export default function FinalScore()
                 <div className="winningTeam">
                     <p>import winning team here</p>
                 </div>
-                <Link to="/TeamsScreen"><button>Play Again</button></Link>
-                <Link to="/GameStartScreen"><button>Main Menu</button></Link>
+                <Link to="/TeamsScreen">Play Again</Link>
+                <Link to="/GameStartScreen">Main Menu</Link>
             </div>
         </>
     );

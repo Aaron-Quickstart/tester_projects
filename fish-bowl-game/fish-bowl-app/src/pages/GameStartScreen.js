@@ -15,8 +15,8 @@ export default function StartScreen()
             <h3 className="gameSubtitle">A mobile way to play Fish Bowl</h3>
             </div>
             <div className="startScreenButtons">
-                <Link to="/teamsScreen" className="steamsScreenBtn"><button>Start Playing</button></Link>
-                <Link to="/HowToPlay" className="howToPlayBtn"><button>Learn the Game</button></Link>
+                <Link to="/teamsScreen" className="steamsScreenBtn">Start Playing</Link>
+                <Link to="/HowToPlay" className="howToPlayBtn">Learn the Game</Link>
             </div>
         </>
     );
