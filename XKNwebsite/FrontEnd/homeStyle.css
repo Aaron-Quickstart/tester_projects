@@ -1,0 +1,23 @@
+body /* global center*/
+{
+    display:flexbox;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+nav
+{
+    text-align: right;
+}
+
+/*Social Media Links*/ /*update with logos*/
+.SideBarSocialLinks
+{
+    flex-direction: column;
+    width: 100px;
+}
+.navBar
+{
+    
+}

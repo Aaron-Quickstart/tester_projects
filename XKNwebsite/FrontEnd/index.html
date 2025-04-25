@@ -4,29 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XNK | Music</title>
+    <link rel="stylesheet" href="homeStyle.css"/>
 </head>
 <body>
         
     <nav>   <!--Nav links-->
+        <div class='topRowNav'>
         <a href="index.html">Home</a>
         <a href="showSchedule.html">Show Schedule</a>
         <a href="listen.html">Listen</a>
+        </div>
+        <div class='bottomRowNav'>
         <a href="watch.html">Watch</a>
         <a href="contact.html">Contact Us</a>
         <a href="bio.html">Bio</a>
+        </div>
     </nav>
 
     <aside class="SideBarSocialLinks">  <!--Links to social medias-->
-        <div class='topRowNav'>
             <a class='navBar' href="https://www.instagram.com/xnkmusicofficial/" target="_blank">Instagram</a>
             <a class='navBar' href="https://www.tiktok.com/@xnkmusic" target="_blank">TikTok</a>
             <a class='navBar' href="https://www.tiktok.com/@xnkmusic" target="_blank">Spotify</a>
-        </div>
-        <div class='bottomRowNav'>
             <a class='navBar' href="https://www.tiktok.com/@xnkmusic" target="_blank">Apple Music</a>
             <a class='navBar' href="https://www.tiktok.com/@xnkmusic" target="_blank">YouTube</a>
             <a class='navBar' href="https://www.tiktok.com/@xnkmusic" target="_blank">Facebook</a>
-        </div>
     </aside>
 
     <main>
@@ -40,6 +41,11 @@
             You will be among the first to know when the next show gets booked, or the next track drops.
             There might even be some exclusive benefits of being a part of the XNK pool!
         </p>
+        <form id="joinTheClubForm">
+            <input type="text" required placeholder="Email">
+            <br/>
+            <button id="xnkPoolSubmit">Submit</button>
+        </form>
     </footer>
 
 </body>
