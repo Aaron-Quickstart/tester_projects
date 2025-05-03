@@ -22,6 +22,18 @@ export default function NavigationLinks()
                         <li className="nav-item">
                             <Link className="nav-link active" aria-current="page" to="/shows">Shows</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link active" aria-current="page" to="/bio">Bio</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link active" aria-current="page" to="/music">Music</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link active" aria-current="page" to="/video">Video</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link active" aria-current="page" to="/contact">Contact</Link>
+                        </li>
                     </ul>
                 </div>
             </div>
