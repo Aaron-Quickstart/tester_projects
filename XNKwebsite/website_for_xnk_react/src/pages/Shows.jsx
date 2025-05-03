@@ -1,4 +1,4 @@
-import NavigationLinks from "./componets/NavigationLinks";
+import NavigationLinks from "../componets/NavigationLinks";
 
 
 
