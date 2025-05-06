@@ -1,6 +1,10 @@
 import NavigationLinks from "../componets/NavigationLinks";
 import Card from 'react-bootstrap/Card';
-
+import Ryan from "./../assets/personality_ryan.png";
+import Petre from "./../assets/personality_petre.png";
+import Riana from "./../assets/personality_riana.png";
+import John from "./../assets/personality_john.png";
+import Lina from "./../assets/personality_lina.png";
 
 
 export default function Bio()
@@ -13,7 +17,7 @@ export default function Bio()
         <NavigationLinks/>
         <h1>This is the Bio Page</h1>
         <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src={Ryan} />
             <Card.Body>
                 <Card.Title>Ryan</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Lead Vox | Rhythm Guitar</Card.Subtitle>
@@ -29,7 +33,7 @@ export default function Bio()
         </Card>
 
         <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src={Petre} />
             <Card.Body>
                 <Card.Title>Petre</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Lead Guitar</Card.Subtitle>
@@ -42,7 +46,7 @@ export default function Bio()
         </Card>
 
         <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src={Riana} />
             <Card.Body>
                 <Card.Title>Riana</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Keytar | Synth</Card.Subtitle>
@@ -54,7 +58,7 @@ export default function Bio()
         </Card>
 
         <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src={John} />
             <Card.Body>
                 <Card.Title>John</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Drums</Card.Subtitle>
@@ -66,7 +70,7 @@ export default function Bio()
         </Card>
 
         <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src={Lina} />
             <Card.Body>
                 <Card.Title>Lina Cooper</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Bass | Backing Vox</Card.Subtitle>
