@@ -1,12 +1,12 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import InstaLogo from './../assets/InstaLogo.png';
-import TikTokLogo from './../assets/TikTokLogo.png';
-import SpotifyLogo from './../assets/SpotifyLogo.png';
-import AppleMusicLogo from './../assets/AppleMusicLogo.png';
-import YtLogo from './../assets/YtLogo.png';
-import FbLogo from './../assets/FbLogo.png';
+import InstaLogo from './../assets/LogoInsta.png';
+import TikTokLogo from './../assets/LogoTikTok.png';
+import SpotifyLogo from './../assets/LogoSpotify.png';
+import AppleMusicLogo from './../assets/LogoAppleMusic.png';
+import YtLogo from './../assets/LogoYT.png';
+import FbLogo from './../assets/LogoFB.png';
 
 export default function SocialLinks() 
 {
