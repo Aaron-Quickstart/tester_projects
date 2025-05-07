@@ -24,10 +24,10 @@ export default function Bio()
         <Container>
             <Row>
                 <Col xs={4}>
-                    <Card.Img src={Ryan} maxHeight='250px' maxWidth='250px'/>
+                    <Card.Img src={Ryan}/>
                 </Col>
                 <Col xs={8}>
-                    <Card>
+                    <Card className='w-80'>
                         <Card.Body>
                             <Card.Title>Ryan</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Lead Vox | Rhythm Guitar</Card.Subtitle>
