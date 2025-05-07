@@ -10,7 +10,7 @@ export default function SignUpForm()
 
         <>
             <form>
-                <h6>Join the XNK Pool</h6>
+                <h6>Join the XNK Pool!</h6>
                 
                 <input placeholder="add your email" required />
                 <button>Sign up</button>

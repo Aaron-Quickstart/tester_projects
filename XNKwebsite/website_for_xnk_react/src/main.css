@@ -1,0 +1,14 @@
+body,
+html,
+#root {
+  margin: 0;
+  height: 100vh; /* Make sure it covers the full viewport height */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+}
+nav{
+  text-align: right;
+}

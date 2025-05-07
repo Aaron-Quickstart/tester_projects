@@ -6,6 +6,7 @@ import Riana from "./../assets/personality_riana.png";
 import John from "./../assets/personality_john.png";
 import Lina from "./../assets/personality_lina.png";
 import FooterNote from "../componets/FooterNote";
+import SignUpForm from "../componets/SignupForm";
 
 
 export default function Bio()
@@ -87,6 +88,7 @@ export default function Bio()
                     </Card.Text>
             </Card.Body>
         </Card>
+        <SignUpForm/>
         <FooterNote/>
     </>
     )
