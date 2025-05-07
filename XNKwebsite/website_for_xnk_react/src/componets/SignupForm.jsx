@@ -1,3 +1,4 @@
+import { useRef } from "react"
 
 
 
@@ -5,6 +6,7 @@
 export default function SignUpForm()
 {
 
+    const emailRef = useRef();
 
     return(
 
@@ -12,7 +14,7 @@ export default function SignUpForm()
             <form>
                 <h6>Join the XNK Pool!</h6>
                 
-                <input placeholder="add your email" required />
+                <input placeholder="add your email" required ref={emailRef}/>
                 <button>Sign up</button>
                 <p>Be among the first to be notified when we book shows, release new music.</p>
             </form>

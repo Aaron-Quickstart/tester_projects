@@ -14,7 +14,8 @@ export default function SocialLinks()
 
   return (
     <>
-      <nav className='flex-column d-flex nav'>
+    <div className='d-flex justify-content-center align-items-center vh-100'>
+      <nav className='flex-column d-flex nav align-items-center gap-4'>
         <a
           href="https://www.instagram.com/xnkmusicofficial/"
           target="_blank" rel="noopener noreferrer">
@@ -51,6 +52,7 @@ export default function SocialLinks()
           <img src={FbLogo} alt="You Tube" height="80"/>
         </a>
       </nav>
+    </div>
     </>
   );
 }
