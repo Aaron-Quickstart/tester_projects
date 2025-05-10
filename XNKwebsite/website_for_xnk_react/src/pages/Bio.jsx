@@ -62,7 +62,7 @@ export default function Bio()
                         <Card className='bg-transparent border-white' text='white' style={{ height: '60rem', width: '35rem' }}>
                         <Card.Img variant="top" src={Riana} />
                         <Card.Body>
-                            <Card.Title>Riana</Card.Title>
+                            <Card.Title><h2>Riana</h2></Card.Title>
                             <Card.Subtitle className="mb-2" style={{ color: "grey" }}><h4>Keytar | Synth</h4></Card.Subtitle>
                             <Card.Text>
                                 Riana is a Los Angeles native who's classical piano prowess has few rivals. 
