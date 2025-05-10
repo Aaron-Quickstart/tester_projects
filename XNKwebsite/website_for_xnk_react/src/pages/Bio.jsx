@@ -62,8 +62,8 @@ export default function Bio()
                         <Card className='bg-transparent border-white' text='white' style={{ height: '60rem', width: '35rem' }}>
                         <Card.Img variant="top" src={Riana} />
                         <Card.Body>
-                        <Card.Title>Riana</Card.Title>
-                            <Card.Subtitle className="mb-2" style={{ color: "grey" }}>Keytar | Synth</Card.Subtitle>
+                            <Card.Title>Riana</Card.Title>
+                            <Card.Subtitle className="mb-2" style={{ color: "grey" }}><h4>Keytar | Synth</h4></Card.Subtitle>
                             <Card.Text>
                                 Riana is a Los Angeles native who's classical piano prowess has few rivals. 
                                 That combined with the attitude and delivery of a rock n' roller it's just as much fun to watch as to listen.
@@ -77,13 +77,14 @@ export default function Bio()
                         <Card className='bg-transparent border-white' text='white' style={{ height: '60rem', width: '30rem' }}>
                         <Card.Img variant="top" src={John} />
                         <Card.Body>
-                            <Card.Title>John</Card.Title>
-                            <Card.Subtitle className="mb-2" style={{ color: "grey" }}>Drums</Card.Subtitle>
+                            <Card.Title><h2>John</h2></Card.Title>
+                            <Card.Subtitle className="mb-2" style={{ color: "grey" }}><h4>Drums</h4></Card.Subtitle>
                             <Card.Text>
                                 John is a wicked good drummer from Massachusetts.
                                 Boasting incredible chops in all styles from gospel, and jazz to metal, and latin.  He lives drums... and coffee.
                             </Card.Text>
                         </Card.Body>
+                        <br/>
                     </Card>
                 </Carousel.Item>
 
@@ -91,8 +92,8 @@ export default function Bio()
                         <Card className='bg-transparent border-white' text='white' style={{ height: '60rem', width: '30rem' }}>
                         <Card.Img variant="top" src={Lina} />
                         <Card.Body>
-                            <Card.Title>Lina Cooper</Card.Title>
-                            <Card.Subtitle className="mb-2" style={{ color: "grey" }}>Bass | Backing Vox</Card.Subtitle>
+                            <Card.Title><h2>Lina Cooper</h2></Card.Title>
+                            <Card.Subtitle className="mb-2" style={{ color: "grey" }}><h4>Bass Guitar | Backing Vox</h4></Card.Subtitle>
                             <Card.Text>
                                 Miss Lina Cooper is a singer/songwriter/popstar originally from Ukraine.
                                 We kidnapped her and turns out she is a phenomenal bass player.
@@ -104,6 +105,7 @@ export default function Bio()
                                 And also dress up like I'm a rock star and make people gasp. dream job"
                             </Card.Text>
                         </Card.Body>
+                        <br/>
                     </Card>
                 </Carousel.Item>
 
