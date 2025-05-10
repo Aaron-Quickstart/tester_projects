@@ -9,9 +9,9 @@ export default function NextShow()
 
     return(
         <>
+            <h1>Next Show</h1>
             <section>
-                <h2>Next Show</h2>
-                <br/>
+            <br/>
                 <p>
                     Universal Bar and Grill <br/>
                     North Hollywood <br/>

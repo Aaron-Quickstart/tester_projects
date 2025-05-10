@@ -20,14 +20,12 @@ export default function Bio()
     return(
     <>
         <NavigationLinks/>
-        <h1>This is the Bio Page</h1>
+        <h1>Meet the Band</h1>
         <Container>
-            <Row>
-                <Col xs={4}>
-                    <Card.Img src={Ryan}/>
-                </Col>
-                <Col xs={8}>
-                    <Card className='w-80'>
+            <Row >
+                <Col>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={Ryan} />
                         <Card.Body>
                             <Card.Title>Ryan</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Lead Vox | Rhythm Guitar</Card.Subtitle>
@@ -43,31 +41,40 @@ export default function Bio()
                     </Card>
                 </Col>
             </Row>
+            <Row>
+                                <Col>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={Petre} />
+                        <Card.Body>
+                            <Card.Title>Petre</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Lead Guitar</Card.Subtitle>
+                                <Card.Text>
+                                    Petre is a multi-instrumentalist from Bucharest, Romania.<br/> 
+                                    But don't let that eastern european sense of humor scare you. 
+                                    Petre specializes in film scoring, production, the best schnitzel you've ever eaten, and face-melting guitar.
+                                </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={Riana} />
+                        <Card.Body>
+                            <Card.Title>Riana</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Keytar | Synth</Card.Subtitle>
+                                <Card.Text>
+                                    Riana is a Los Angeles native who's classical piano prowess has few rivals. 
+                                    That combined with the attitude and delivery of a rock n' roller it's just as much fun to watch as to listen.
+                                </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
 
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={Petre} />
-                <Card.Body>
-                    <Card.Title>Petre</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Lead Guitar</Card.Subtitle>
-                        <Card.Text>
-                            Petre is a multi-instrumentalist from Bucharest, Romania.<br/> 
-                            But don't let that eastern european sense of humor scare you. 
-                            Petre specializes in film scoring, production, the best schnitzel you've ever eaten, and face-melting guitar.
-                        </Card.Text>
-                </Card.Body>
-            </Card>
 
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={Riana} />
-                <Card.Body>
-                    <Card.Title>Riana</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Keytar | Synth</Card.Subtitle>
-                        <Card.Text>
-                            Riana is a Los Angeles native who's classical piano prowess has few rivals. 
-                            That combined with the attitude and delivery of a rock n' roller it's just as much fun to watch as to listen.
-                        </Card.Text>
-                </Card.Body>
-            </Card>
+            
+
+            
 
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={John} />
