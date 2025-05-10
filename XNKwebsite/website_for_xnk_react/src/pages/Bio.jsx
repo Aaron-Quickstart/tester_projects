@@ -72,9 +72,27 @@ export default function Bio()
                         <br/>
                     </Card>
                 </Carousel.Item>
+
+                <Carousel.Item>
+                    <Card style={{ width: '30rem' }}>
+                        <Card.Img variant="top" src={John} />
+                        <Card.Body>
+                            <Card.Title>John</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Drums</Card.Subtitle>
+                            <Card.Text>
+                                John is a wicked good drummer from Massachusetts.
+                                Boasting incredible chops in all styles from gospel, and jazz to metal, and latin.  He lives drums... and coffee.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Carousel.Item>
+
             </Carousel>
+
         </Container>
+
         <br/>
+
         <SignUpForm/>
         <FooterNote/>
     </>
@@ -84,19 +102,6 @@ export default function Bio()
 /*
 
 
-<Carousel.Item>
-    <Card style={{ width: '30rem' }}>
-        <Card.Img variant="top" src={John} />
-        <Card.Body>
-            <Card.Title>John</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">Drums</Card.Subtitle>
-                <Card.Text>
-                    John is a wicked good drummer from Massachusetts. 
-                    Boasting incredible chops in all styles from gospel, and jazz to metal, and latin.  He lives drums... and coffee.
-                </Card.Text>
-        </Card.Body>
-    </Card>   
-</Carousel.Item>
 
 <Carousel.Item>
     <Card style={{ width: '30rem' }}>
