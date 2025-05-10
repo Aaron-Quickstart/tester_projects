@@ -19,15 +19,16 @@ export default function Bio()
     return(
     <>
         <NavigationLinks/>
+        <br/>
         <h1>Meet the Band</h1>
-        <Container variant='dark' className='mx-auto'>
+        <Container className='flex-column d-flex nav align-items-center'>
             <Carousel fade>
                 <Carousel.Item>
-                    <Card style={{ width: '30rem' }}>
+                    <Card style={{ width: '35rem' }}>
                         <Card.Img variant="top" src={Ryan} />
                         <Card.Body>
-                            <Card.Title>Ryan</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">Lead Vox | Rhythm Guitar</Card.Subtitle>
+                            <Card.Title><h2>Ryan</h2></Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted"><h4>Lead Vox | Rhythm Guitar</h4></Card.Subtitle>
                                 <Card.Text>
                                     Ryan is a songwriter, entertainer, and artist newly based in Los Angeles. Originally from East TN.
                                     He is a groove and lyric based writer with a volcanic passion for dramatic rock n' roll. 
@@ -37,11 +38,13 @@ export default function Bio()
                                     I want to share it and take care of people. and if I positively influence someone then I'm succeeding."
                                 </Card.Text>
                         </Card.Body>
+                        <br/>
                     </Card>
                 </Carousel.Item>
       
             </Carousel>
         </Container>
+        <br/>
         <SignUpForm/>
         <FooterNote/>
     </>
