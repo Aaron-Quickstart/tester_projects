@@ -16,7 +16,7 @@ export default function SignUpForm()
                 
                 <input placeholder="add your email" required ref={emailRef}/>
                 <button>Sign up</button>
-                <p>Be among the first to be notified when we book shows, release new music.</p>
+                <p>Be among the first to be notified when we book shows and release new music.</p>
             </form>
         </>
     )
