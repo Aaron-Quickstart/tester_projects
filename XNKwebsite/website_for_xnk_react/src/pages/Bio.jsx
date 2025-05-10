@@ -5,8 +5,7 @@ import John from "./../assets/personality_john.png";
 import Lina from "./../assets/personality_lina.png";
 import Card from 'react-bootstrap/Card';
 import Container from "react-bootstrap/esm/Container";
-import Row from "react-bootstrap/esm/Row";
-import Col from "react-bootstrap/esm/Col";
+import Carousel from "react-bootstrap/esm/Carousel";
 import NavigationLinks from "../componets/NavigationLinks";
 import FooterNote from "../componets/FooterNote";
 import SignUpForm from "../componets/SignupForm";
@@ -21,10 +20,10 @@ export default function Bio()
     <>
         <NavigationLinks/>
         <h1>Meet the Band</h1>
-        <Container>
-            <Row >
-                <Col>
-                    <Card style={{ width: '18rem' }}>
+        <Container variant='dark' className='mx-auto'>
+            <Carousel fade>
+                <Carousel.Item>
+                    <Card style={{ width: '30rem' }}>
                         <Card.Img variant="top" src={Ryan} />
                         <Card.Body>
                             <Card.Title>Ryan</Card.Title>
@@ -39,11 +38,19 @@ export default function Bio()
                                 </Card.Text>
                         </Card.Body>
                     </Card>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <Card style={{ width: '18rem' }}>
+                </Carousel.Item>
+      
+            </Carousel>
+        </Container>
+        <SignUpForm/>
+        <FooterNote/>
+    </>
+    )
+}
+
+/*
+          <Carousel.Item>
+                    <Card style={{ width: '30rem' }}>
                         <Card.Img variant="top" src={Petre} />
                         <Card.Body>
                             <Card.Title>Petre</Card.Title>
@@ -55,9 +62,9 @@ export default function Bio()
                                 </Card.Text>
                         </Card.Body>
                     </Card>
-                </Col>
-                <Col>
-                    <Card style={{ width: '18rem' }}>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <Card style={{ width: '30rem' }}>
                         <Card.Img variant="top" src={Riana} />
                         <Card.Body>
                             <Card.Title>Riana</Card.Title>
@@ -68,11 +75,9 @@ export default function Bio()
                                 </Card.Text>
                         </Card.Body>
                     </Card>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <Card style={{ width: '18rem' }}>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <Card style={{ width: '30rem' }}>
                         <Card.Img variant="top" src={John} />
                         <Card.Body>
                             <Card.Title>John</Card.Title>
@@ -82,10 +87,10 @@ export default function Bio()
                                     Boasting incredible chops in all styles from gospel, and jazz to metal, and latin.  He lives drums... and coffee.
                                 </Card.Text>
                         </Card.Body>
-                    </Card>
-                </Col>
-                <Col>
-                    <Card style={{ width: '18rem' }}>
+                    </Card>   
+                </Carousel.Item>
+                <Carousel.Item>
+                    <Card style={{ width: '30rem' }}>
                         <Card.Img variant="top" src={Lina} />
                         <Card.Body>
                             <Card.Title>Lina Cooper</Card.Title>
@@ -102,20 +107,5 @@ export default function Bio()
                                 </Card.Text>
                         </Card.Body>
                     </Card>
-                </Col>
-            </Row>
-
-
-            
-
-            
-
-            
-
-            
-        </Container>
-        <SignUpForm/>
-        <FooterNote/>
-    </>
-    )
-}
+                </Carousel.Item>
+*/
