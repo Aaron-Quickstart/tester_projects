@@ -10,7 +10,8 @@ export default function NextShow()
     return(
         <>
             <section>
-                <h3>Next Show</h3>
+                <h2>Next Show</h2>
+                <br/>
                 <p>
                     Universal Bar and Grill <br/>
                     North Hollywood <br/>
@@ -18,6 +19,7 @@ export default function NextShow()
                 </p>
                 <img src={UniBG050125} alt="Universal"/>
             </section>
+            <br/>
         </>
     )
 }
