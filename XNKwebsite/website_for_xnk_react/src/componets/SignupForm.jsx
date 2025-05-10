@@ -10,7 +10,7 @@ export default function SignUpForm()
 
     return(
 
-        <>
+        <div className='justify-content-center'>
             <form>
                 <h6>Join the XNK Pool!</h6>
                 
@@ -18,6 +18,6 @@ export default function SignUpForm()
                 <button>Sign up</button>
                 <p>Be among the first to be notified when we book shows and release new music.</p>
             </form>
-        </>
+        </div>
     )
 }

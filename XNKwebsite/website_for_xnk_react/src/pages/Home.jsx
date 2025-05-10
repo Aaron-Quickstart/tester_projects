@@ -16,17 +16,16 @@ export default function Home()
     return(
     <>
         <NavigationLinks/>
+        {/*  Add a "News Ticker" to add a feeling of inter activity on the homepage  */}
         <Container>
-            <Row>
-                <Col xs={2}><SocialLinks/></Col>
-                <Col xs={10}><img src={Background} alt="Background"/></Col>
+            <Row className='d-flex align-items-center vh-100'>
+                <Col xs={1}><SocialLinks/></Col>
+                <Col xs={11}><img src={Background} alt="Background"/></Col>
             </Row>
         </Container>
-        
-        
         <SignUpForm/>
         <FooterNote />
+
     </>
     )
 }
-

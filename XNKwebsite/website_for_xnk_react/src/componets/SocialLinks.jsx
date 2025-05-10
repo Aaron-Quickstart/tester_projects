@@ -11,8 +11,8 @@ export default function SocialLinks()
 
   return (
     <>
-    <div className='d-flex justify-content-center align-items-center vh-100'>
-      <nav className='flex-column d-flex nav align-items-center gap-4'>
+    <div className='d-flex justify-content-right align-items-center vh-100'>
+      <nav className='flex-column nav d-flex align-items-center gap-4'>
         <a
           href="https://www.instagram.com/xnkmusicofficial/"
           target="_blank" rel="noopener noreferrer">
