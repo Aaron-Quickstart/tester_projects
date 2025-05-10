@@ -42,7 +42,7 @@ export default function Bio()
                 </Col>
             </Row>
             <Row>
-                                <Col>
+                <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={Petre} />
                         <Card.Body>
@@ -70,41 +70,49 @@ export default function Bio()
                     </Card>
                 </Col>
             </Row>
+            <Row>
+                <Col>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={John} />
+                        <Card.Body>
+                            <Card.Title>John</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Drums</Card.Subtitle>
+                                <Card.Text>
+                                    John is a wicked good drummer from Massachusetts. 
+                                    Boasting incredible chops in all styles from gospel, and jazz to metal, and latin.  He lives drums... and coffee.
+                                </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={Lina} />
+                        <Card.Body>
+                            <Card.Title>Lina Cooper</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Bass | Backing Vox</Card.Subtitle>
+                                <Card.Text>
+                                    Miss Lina Cooper is a singer/songwriter/popstar originally from Ukraine. 
+                                    We kidnapped her and turns out she is a phenomenal bass player.  
+                                    Her arranging and writing skills are unmatched. 
+                                    Do not cross her; she will write a song about you.
+                                    <br/><br/>
+                                    "Music and songwriting have been my favorite things to do ever since I was about 8 years old. 
+                                    I still can't believe I get to do it as a job. 
+                                    And also dress up like I'm a rock star and make people gasp. dream job"
+                                </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
 
 
             
 
             
 
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={John} />
-                <Card.Body>
-                    <Card.Title>John</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Drums</Card.Subtitle>
-                        <Card.Text>
-                            John is a wicked good drummer from Massachusetts. 
-                            Boasting incredible chops in all styles from gospel, and jazz to metal, and latin.  He lives drums... and coffee.
-                        </Card.Text>
-                </Card.Body>
-            </Card>
+            
 
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={Lina} />
-                <Card.Body>
-                    <Card.Title>Lina Cooper</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Bass | Backing Vox</Card.Subtitle>
-                        <Card.Text>
-                            Miss Lina Cooper is a singer/songwriter/popstar originally from Ukraine. 
-                            We kidnapped her and turns out she is a phenomenal bass player.  
-                            Her arranging and writing skills are unmatched. 
-                            Do not cross her; she will write a song about you.
-                            <br/><br/>
-                            "Music and songwriting have been my favorite things to do ever since I was about 8 years old. 
-                            I still can't believe I get to do it as a job. 
-                            And also dress up like I'm a rock star and make people gasp. dream job"
-                        </Card.Text>
-                </Card.Body>
-            </Card>
+            
         </Container>
         <SignUpForm/>
         <FooterNote/>
