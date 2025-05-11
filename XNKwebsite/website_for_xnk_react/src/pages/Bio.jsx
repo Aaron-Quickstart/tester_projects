@@ -111,7 +111,8 @@ export default function Bio()
 
             </Carousel>
         </Container>
-        <br/>
+        <br/><br/>
+        <br/><br/>
         <SignUpForm/>
         <FooterNote/>
     </>
