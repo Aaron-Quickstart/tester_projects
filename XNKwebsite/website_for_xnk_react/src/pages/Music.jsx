@@ -4,6 +4,7 @@ import NavigationLinks from "../componets/NavigationLinks";
 import SignUpForm from "../componets/SignupForm";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
+import HotelCafeMusic from "../componets/HotelCafeMusic";
 
 
 
@@ -16,7 +17,16 @@ export default function Music()
     return(
     <>
         <NavigationLinks/>
-        <h1>This is the Music Page</h1>
+        <br/>
+        <HotelCafeMusic/>
+        <br/>
+        <SignUpForm/>
+        <FooterNote/>
+    </>
+    )
+}
+
+/*
         <Container>
             <Row>
                 <Col>
@@ -27,9 +37,4 @@ export default function Music()
                 </Col>
             </Row>
         </Container>
-        <br/>
-        <SignUpForm/>
-        <FooterNote/>
-    </>
-    )
-}
+*/

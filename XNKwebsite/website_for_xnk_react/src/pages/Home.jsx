@@ -19,8 +19,8 @@ export default function Home()
         {/*  Add a "News Ticker" to add a feeling of inter activity on the homepage  */}
         <Container>
             <Row className='d-flex align-items-center vh-100'>
-                <Col xs={1}><SocialLinks/></Col>
-                <Col xs={11}><img src={Background} alt="Background"/></Col>
+                <Col className='z-1' xs={1}><SocialLinks/></Col>
+                <Col className='z-0' xs={11}><img src={Background} alt="Background" style={{width: '100%'}}/></Col>
             </Row>
         </Container>
         <SignUpForm/>
