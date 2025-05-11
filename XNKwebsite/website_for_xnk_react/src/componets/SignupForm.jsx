@@ -10,7 +10,7 @@ export default function SignUpForm()
 
     return(
 
-        <div className='justify-content-center'>
+        <div className='justify-content-center align-items-center'>
             <form>
                 <h6>Join the XNK Pool!</h6>
                 

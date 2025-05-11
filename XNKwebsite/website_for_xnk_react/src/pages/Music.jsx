@@ -5,6 +5,8 @@ import SignUpForm from "../componets/SignupForm";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 import HotelCafeMusic from "../componets/HotelCafeMusic";
+import LoudMusic from "../componets/LoudMusic";
+import VampiresMusic from "../componets/VampireMusic";
 
 
 
@@ -19,6 +21,8 @@ export default function Music()
         <NavigationLinks/>
         <br/>
         <HotelCafeMusic/>
+        <LoudMusic/>
+        <VampiresMusic/>
         <br/>
         <SignUpForm/>
         <FooterNote/>
