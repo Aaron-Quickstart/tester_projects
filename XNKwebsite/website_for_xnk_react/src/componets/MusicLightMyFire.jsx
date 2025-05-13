@@ -19,7 +19,7 @@ export default function MusicLightMyFire()
                 </Col>
                 <Col>
                 <br/><br/>
-                <Card.Body>
+                <Card.Body className='mt-4'>
                     <Card.Title>Currents out now!</Card.Title>
                     <Card.Text>
                         This song is dispair, but beauty lies within everything.

@@ -19,7 +19,7 @@ export default function RaincloudMusic()
                 </Col>
                 <Col>
                 <br/><br/>
-                <Card.Body>
+                <Card.Body className='mt-4'>
                     <Card.Title>Raincloud out now!</Card.Title>
                     <Card.Text>
                         Sticks and stones may break my bones, but self deprication is catharsis.

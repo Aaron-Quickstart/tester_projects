@@ -15,11 +15,11 @@ export default function MusicCurrents()
         <Card className='bg-transparent' text='white'>
             <Row>
                 <Col>
-                    <Card.Img style={{height: '350px', width: '350px'}} />
+                    <Card.Img src={cover_art_currents} style={{height: '350px', width: '350px'}} />
                 </Col>
                 <Col>
                 <br/><br/>
-                <Card.Body>
+                <Card.Body className='mt-4'>
                     <Card.Title>Currents out now!</Card.Title>
                     <Card.Text>
                         This song is dispair, but beauty lies within everything.

@@ -19,7 +19,7 @@ export default function MusicWeightless()
                 </Col>
                 <Col>
                 <br/><br/>
-                <Card.Body>
+                <Card.Body className='mt-4'>
                     <Card.Title>Weightless out now!</Card.Title>
                     <Card.Text>
                         "I'm just dealing with some <br/>

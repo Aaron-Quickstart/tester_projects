@@ -19,7 +19,7 @@ export default function VampiresMusic()
                 </Col>
                 <Col>
                 <br/><br/>
-                <Card.Body>
+                <Card.Body className='mt-4'>
                     <Card.Title>Vampires out now!</Card.Title>
                     <Card.Text>
                         Claws, Teeth, and eyeless.<br/>

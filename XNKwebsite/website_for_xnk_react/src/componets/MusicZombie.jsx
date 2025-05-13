@@ -19,7 +19,7 @@ export default function MusicZombie()
                 </Col>
                 <Col>
                 <br/><br/>
-                <Card.Body>
+                <Card.Body className='mt-4'>
                     <Card.Title>Zombie out now!</Card.Title>
                     <Card.Text>
                         We made this version of "Zombie" to be a call to action against all of the hate that has spread like a virus causing disease in us all.

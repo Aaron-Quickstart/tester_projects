@@ -19,7 +19,7 @@ export default function LoudMusic()
                 </Col>
                 <Col>
                 <br/><br/>
-                <Card.Body>
+                <Card.Body className='mt-4'>
                     <Card.Title>Loud is out now!</Card.Title>
                     <Card.Text>
                         No such thing as a quiet place.

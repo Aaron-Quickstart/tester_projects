@@ -19,7 +19,7 @@ export default function MusicHotelCafe()
                 </Col>
                 <Col>
                 <br/><br/>
-                <Card.Body>
+                <Card.Body className='mt-4'>
                     <Card.Title>Live at Hotel Cafe is out now!</Card.Title>
                     <Card.Text>
                     We are bringing back live albums.  Pretty groovy, eh?

@@ -22,7 +22,7 @@ export default function Music()
     return(
     <>
         <NavigationLinks/>
-        <div>
+        <div className='my-5'>
             <MusicHotelCafe/>
             <MusicLoud/>
             <MusicVampires/>
