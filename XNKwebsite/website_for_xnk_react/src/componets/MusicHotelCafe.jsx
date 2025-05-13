@@ -4,7 +4,7 @@ import cover_art_liveHotelCafe from './../assets/cover_art_liveHotelCafe.jpg';
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
 
-export default function HotelCafeMusic()
+export default function MusicHotelCafe()
 {
 
 
@@ -32,8 +32,3 @@ export default function HotelCafeMusic()
 
   );
 }
-
-
-/*
-
-*/
