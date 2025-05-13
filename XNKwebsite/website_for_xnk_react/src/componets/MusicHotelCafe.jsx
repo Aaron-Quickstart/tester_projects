@@ -15,9 +15,10 @@ export default function MusicHotelCafe()
         <Card className='bg-transparent' text='white'>
             <Row>
                 <Col>
-                    <Card.Img src={cover_art_liveHotelCafe} style={{height: '200px', width: '200px'}} />
+                    <Card.Img src={cover_art_liveHotelCafe} style={{height: '350px', width: '350px'}} />
                 </Col>
                 <Col>
+                <br/><br/>
                 <Card.Body>
                     <Card.Title>Live at Hotel Cafe is out now!</Card.Title>
                     <Card.Text>

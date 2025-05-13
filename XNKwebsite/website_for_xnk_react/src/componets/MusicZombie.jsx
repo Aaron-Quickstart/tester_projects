@@ -15,11 +15,12 @@ export default function MusicZombie()
         <Card className='bg-transparent' text='white'>
             <Row>
                 <Col>
-                    <Card.Img src={cover_art_zombie} style={{height: '200px', width: '200px'}} />
+                    <Card.Img src={cover_art_zombie} style={{height: '350px', width: '350px'}} />
                 </Col>
                 <Col>
+                <br/><br/>
                 <Card.Body>
-                    <Card.Title>Zombies out now!</Card.Title>
+                    <Card.Title>Zombie out now!</Card.Title>
                     <Card.Text>
                         We made this version of "Zombie" to be a call to action against all of the hate that has spread like a virus causing disease in us all.
                     </Card.Text>

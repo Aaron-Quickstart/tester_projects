@@ -15,9 +15,10 @@ export default function MusicCurrents()
         <Card className='bg-transparent' text='white'>
             <Row>
                 <Col>
-                    <Card.Img src={cover_art_currents} style={{height: '200px', width: '200px'}} />
+                    <Card.Img style={{height: '350px', width: '350px'}} />
                 </Col>
                 <Col>
+                <br/><br/>
                 <Card.Body>
                     <Card.Title>Currents out now!</Card.Title>
                     <Card.Text>

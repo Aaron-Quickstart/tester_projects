@@ -15,9 +15,10 @@ export default function MusicWeightless()
         <Card className='bg-transparent' text='white'>
             <Row>
                 <Col>
-                    <Card.Img src={cover_art_weightless} style={{height: '200px', width: '200px'}} />
+                    <Card.Img src={cover_art_weightless} style={{height: '350px', width: '350px'}} />
                 </Col>
                 <Col>
+                <br/><br/>
                 <Card.Body>
                     <Card.Title>Weightless out now!</Card.Title>
                     <Card.Text>
