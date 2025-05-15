@@ -1,4 +1,5 @@
 {
+  "homepage": "https://aaron-quickstart.github.io/tester_projects",
   "name": "website_for_xnk_react",
   "private": true,
   "version": "0.0.0",
@@ -6,6 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
