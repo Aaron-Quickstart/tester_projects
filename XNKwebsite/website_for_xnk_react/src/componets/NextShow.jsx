@@ -1,4 +1,4 @@
-import UniBG050125 from './../assets/UniBarGrl050125.png';
+import UniBG050125 from './../assets/show_UniBarGrl050125.png';
 
 
 
